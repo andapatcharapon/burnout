@@ -1,0 +1,21 @@
+# Next.js build output
+.next/
+out/
+
+# Dependency directories
+node_modules/
+
+# Local Node portable runtime
+node-v20.14.0-win-x64/
+node.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env*.local
+
+# Temporary setup scripts
+download_node.ps1
+project_spec.md

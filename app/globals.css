@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Google Sans', 'Sarabun', 'Inter', sans-serif;
+  background-color: #f8f9ff;
+  color: #121c2a;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.radar-grid {
+  stroke: #E5E7EB;
+  stroke-width: 1;
+  fill: none;
+}
+
+.radar-area {
+  fill: rgba(0, 82, 204, 0.2);
+  stroke: #0052cc;
+  stroke-width: 2;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.5);
+  box-shadow: 0px 4px 16px rgba(0, 82, 204, 0.04);
+}
+
+.risk-gauge-gradient {
+  background: conic-gradient(from 180deg at 50% 50%, #4ade80 0deg, #fbbf24 180deg, #f87171 360deg);
+}
+
+/* Custom range slider styling */
+.slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #0052cc;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0px 2px 6px rgba(0, 82, 204, 0.2);
+  transition: transform 0.1s ease;
+}
+
+.slider-thumb::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+/* Hide spin buttons for numeric inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Print Specific Layout Formatting */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, footer, nav, button, .no-print {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .glass-card {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    page-break-inside: avoid;
+  }
+}
