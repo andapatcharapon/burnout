@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className="bg-surface sticky top-0 z-50 h-20 border-b border-outline-variant/20 transition-all duration-300">
       <nav className="flex justify-between items-center w-full px-4 md:px-margin-desktop max-w-container-max mx-auto h-20">
         <Link href="/" className="font-headline-md text-headline-md font-bold text-primary cursor-pointer">
-          MindCheck HS
+          Burnout check
         </Link>
         
         {/* Desktop Navigation */}

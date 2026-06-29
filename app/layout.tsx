@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'MindCheck HS - Assessment Tool',
+  title: 'Burnout check - Assessment Tool',
   description: 'ระบบประเมินและคัดกรองภาวะหมดไฟในการเรียนสำหรับนักเรียนมัธยมปลาย',
 };
 

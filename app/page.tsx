@@ -12,11 +12,10 @@ export default function Home() {
             แบบประเมินสุขภาพจิตเบื้องต้นมาตรฐานสากล
           </span>
           <h1 className="font-display-lg text-display-lg text-on-surface leading-tight">
-            ประเมินและดูแลหัวใจของคุณกับ <span className="text-primary">MindCheck HS</span>
+            ประเมินสภาวะหมดไฟของคุณกับ <span className="text-primary">Burnout check</span>
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed max-w-2xl">
-            ค้นพบระดับความเสี่ยงของ <strong className="text-primary font-semibold">ภาวะหมดไฟในการเรียน (Academic Burnout)</strong> 
-            ผ่านชุดคำถามประเมินพฤติกรรมการใช้ชีวิต และแบบทดสอบทางจิตวิทยา 3 มิติ (MBI-SS) ที่ออกแบบมาเพื่อนักเรียนระดับมัธยมปลายโดยเฉพาะ
+            ประเมินระดับความเสี่ยงของภาวะหมดไฟในการเรียนผ่านชุดคำถามประเมินพฤติกรรมการใช้ชีวิตและแบบทดสอบทางจิตวิทยาที่ออกแบบมาเพื่อนักเรียนระดับมัธยมปลายโดยเฉพาะ
           </p>
           
           <div className="flex flex-wrap items-center gap-4 pt-4">

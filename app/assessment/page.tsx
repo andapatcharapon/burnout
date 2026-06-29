@@ -385,9 +385,9 @@ export default function Assessment() {
 
           {[
             { stepNum: 1, label: 'ข้อมูลทั่วไป', desc: 'พฤติกรรมและการเรียน' },
-            { stepNum: 2, label: 'ความล้า (EE)', desc: 'ความอ่อนล้าทางอารมณ์' },
-            { stepNum: 3, label: 'การเมินเฉย (CY)', desc: 'ทัศนคติต่อการเรียน' },
-            { stepNum: 4, label: 'ประสิทธิภาพ (RE)', desc: 'ความเชื่อมั่นในการเรียน' },
+            { stepNum: 2, label: 'ความล้า', desc: 'ความอ่อนล้าทางอารมณ์' },
+            { stepNum: 3, label: 'การเมินเฉย', desc: 'ทัศนคติต่อการเรียน' },
+            { stepNum: 4, label: 'ประสิทธิภาพ', desc: 'ความเชื่อมั่นในการเรียน' },
           ].map((s) => {
             const isActive = step === s.stepNum;
             const isCompleted = step > s.stepNum;
@@ -424,9 +424,9 @@ export default function Assessment() {
               <span className="text-[11px] font-bold text-primary uppercase tracking-wider">ขั้นตอนที่ {step} จาก 4</span>
               <h3 className="font-bold text-on-surface text-base">
                 {step === 1 && 'ข้อมูลทั่วไปและพฤติกรรม'}
-                {step === 2 && 'ความอ่อนล้าทางอารมณ์และร่างกาย (EE)'}
-                {step === 3 && 'การเมินเฉยและการลดค่าความเป็นบุคคล (CY)'}
-                {step === 4 && 'ความรู้สึกไม่สำเร็จและประสิทธิภาพลดลง (RE)'}
+                {step === 2 && 'ความอ่อนล้าทางอารมณ์และร่างกาย'}
+                {step === 3 && 'การเมินเฉยและการลดค่าความเป็นบุคคล'}
+                {step === 4 && 'ความรู้สึกไม่สำเร็จและประสิทธิภาพลดลง'}
               </h3>
             </div>
             <span className="text-primary font-bold text-sm bg-primary/10 px-2.5 py-1 rounded-lg shrink-0">
@@ -990,10 +990,9 @@ export default function Assessment() {
           />
         </div>
         <div className="w-full md:w-1/2 space-y-4">
-          <h3 className="font-headline-md text-headline-md text-secondary">ข้อมูลของคุณจะถูกรักษาเป็นความลับสูงสุด</h3>
+          <h3 className="font-headline-md text-headline-md text-secondary">ข้อมูลของคุณจะถูกเก็บเป็นความลับ</h3>
           <p className="text-body-md text-on-surface-variant leading-relaxed">
-            เราให้ความสำคัญกับความเป็นส่วนตัวของคุณ ข้อมูลทั้งหมดจะถูกใช้เพื่อประมวลผลความเสี่ยงเบื้องต้นในระดับของเว็บเบราว์เซอร์เท่านั้น 
-            ไม่มีการเชื่อมต่อ API ไปยังระบบเซิร์ฟเวอร์ภายนอก ทำให้มั่นใจได้ว่าข้อมูลส่วนบุคคลของคุณได้รับการจัดเก็บตามมาตรฐานความปลอดภัย PDPA
+            เราให้ความสำคัญ เรื่องความเป็นส่วนตัวกับทุกคนที่เข้ามาใช้งาน ข้อมูลทั้งหมดจะถูกใช้เพื่อประมวลผลความเสี่ยงเบื้องต้นเท่านั้น ไม่มีการเชื่อมต่อไปยังเซิร์ฟเวอร์ภายนอก จึงมั่นใจได้ว่าข้อมูลส่วนบุคคลของคุณได้จัดเก็บตามมาตรฐานความเป็นส่วนตัวหรือ PDPA
           </p>
         </div>
       </div>
