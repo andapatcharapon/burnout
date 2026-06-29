@@ -1,6 +1,6 @@
-# MindCheck HS - Comprehensive Project Specifications (Student-Only Version)
+# Burnout check - Comprehensive Project Specifications (Student-Only Version)
 
-เอกสารข้อมูลความต้องการระบบ (System Requirements) เกณฑ์การประเมินผลแบบ **Rule-Based** และโครงสร้างสถาปัตยกรรมข้อมูลสำหรับโปรเจกต์ **MindCheck HS** เพื่อใช้ในการพัฒนาและทดสอบระบบด้วย Next.js และ Vercel
+เอกสารข้อมูลความต้องการระบบ (System Requirements) เกณฑ์การประเมินผลแบบ **Rule-Based** และโครงสร้างสถาปัตยกรรมข้อมูลสำหรับโปรเจกต์ **Burnout check** เพื่อใช้ในการพัฒนาและทดสอบระบบด้วย Next.js และ Vercel
 
 ---
 
